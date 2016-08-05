@@ -1,0 +1,18 @@
+{
+  "setup": {
+    "driver": "mysql",
+    "user": {"ENV": "DB_USERNAME"} ,
+    "password": {"ENV": "DB_PASSWORD"}
+  },
+  "dev": {
+      "driver": "mysql",
+      "database":{"ENV": "DB_NAME"},
+      "user": {"ENV": "DB_USERNAME"} ,
+      "password": {"ENV": "DB_PASSWORD"}
+  },
+  "prod": {
+      "driver": "mysql",
+      "user": {"ENV": "DB_PROD_USERNAME"},
+      "password": {"ENV": "DB_PROD_PASSWORD"}
+    }
+}

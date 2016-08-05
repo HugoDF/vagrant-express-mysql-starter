@@ -1,0 +1,27 @@
+{
+  "name": "express-mysql-start",
+  "version": "1.0.0",
+  "description": "",
+  "repository": "http://github.com/HugoDF/vagrant-express-mysql-starter",
+  "main": "app.js",
+  "scripts": {
+    "start": "node-dev app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "migrate": "db-migrate"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "db-migrate": "^0.10.0-beta.13",
+    "db-migrate-mysql": "^1.1.7",
+    "dotenv": "^2.0.0",
+    "express": "^4.14.0",
+    "express-myconnection": "^1.0.4",
+    "lodash": "^4.14.1",
+    "node-mysql": "^0.4.2"
+  },
+  "devDependencies": {
+    "node-dev": "^3.1.3"
+  }
+}

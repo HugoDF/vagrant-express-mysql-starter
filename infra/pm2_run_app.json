@@ -1,0 +1,10 @@
+{
+  "apps": [{
+    "name": "app",
+    "script": "app.js",
+    "watch": true,
+    "watch_options": {
+      usePolling: true
+    }
+  }]
+}
