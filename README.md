@@ -14,7 +14,7 @@
 
 You should now be able to access `http://192.168.10.11/` and see `Welcome to express-mysql-starter`.
 
-Add `192.168.10.11 express-starter.local` to be able to access the app at `http://express-start.local`.
+Add `192.168.10.11 express-starter.local` to `/etc/hosts` to be able to access the app at `http://express-start.local`.
 
 Next we need to set up the database:
 
